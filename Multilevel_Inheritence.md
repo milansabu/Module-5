@@ -70,6 +70,7 @@ print(gc.getName(), gc.getAge(), gc.getsal())
 
 ## Sample Output
 <img width="798" height="208" alt="image" src="https://github.com/user-attachments/assets/cd812967-071b-4ea3-951f-1bb0a63ecf8a" />
+
 ## Result
 
 Thus, the program has been successfully executed.
