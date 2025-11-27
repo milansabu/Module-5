@@ -31,6 +31,92 @@ To write a Python program that uses **Hierarchical Inheritance** to input and di
 5. Display collected information using class methods.
 
 ## Program
-Add code here
-## Sample Output
+class details:
+    
+    def __init__(self,a,b,c,d,e):
+    
+        self.a=a
+        
+        self.b=b
+        
+        self.c=c
+        
+        self.d=d
+        
+        self.e=e
+        
+class Employee(details):
+    
+    def __init__(self,a,b,c,d,e):
+    
+        details.__init__(self,a,b,c,d,e)
+    
+    def emp(self):
+    
+        print("Employee Object")
+        
+        print(f"Id:  {self.a}")
+        
+        print(f"Name:  {self.b}")
+        
+        print(f"Gender:  {self.c}")
+        
+        print(f"Company:  {self.d}")
+        
+        print(f"Department:  {self.e}")
+        
+class patient(details):
 
+    def __init__(self,a,b,c,d,e):
+    
+        details.__init__(self,a,b,c,d,e)
+    
+    def pat(self):
+    
+        print("Patient Object")
+        
+        print(f"Id:  {self.a}")
+        
+        print(f"Name:  {self.b}")
+        
+        print(f"Gender:  {self.c}")
+        
+        print(f"Hospital:  {self.d}")
+        
+        print(f"Department:  {self.e}")
+
+
+a=int(input())
+
+b=input()
+
+c=input()
+
+d=input()
+
+e=input()
+
+l=int(input())
+
+m=input()
+
+n=input()
+
+o=input()
+
+p=input()
+
+employee=Employee(a,b,c,d,e)
+
+patient=patient(l,m,n,o,p)
+
+employee.emp()
+
+print()
+
+patient.pat()
+## Sample Output
+<img width="801" height="448" alt="image" src="https://github.com/user-attachments/assets/4766fb8e-011d-40c0-9364-8ef2fe848305" />
+## Result
+
+Thus, the program has been successfully executed.
